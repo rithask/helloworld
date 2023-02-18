@@ -1,8 +1,4 @@
--- import: fastn
+;; package configs
 
--- fastn.package: rithask.github.io/helloworld
-download-base-url: https://raw.githubusercontent.com/rithask/helloworld/main
-
--- fastn.dependency: fifthtry.github.io/doc-site as ds
-
--- fastn.auto-import: ds
+-- import: fastn as f
+-- f.package: test
